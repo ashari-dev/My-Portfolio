@@ -14,10 +14,10 @@ const reserseIndex = (_, intex) => {
 const Stair = () => {
   return (
     <>
-      {[...Array(6)].map((index) => {
+      {[...Array(6)].map((index, num) => {
         return (
           <motion.div
-            key={index}
+            key={num}
             variants={stairAnimation}
             initial="initial"
             animate="animate"
