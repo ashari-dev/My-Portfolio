@@ -1,23 +1,29 @@
 import { motion } from "framer-motion";
 
 const stairAnimation = {
-  initial: { top: "0%" },
-  animate: { top: "100%" },
-  exit: { top: ["100%", "0%"] },
+  initial: {
+    top: "0%",
+  },
+  animate: {
+    top: "100%",
+  },
+  exit: {
+    top: ["100%", "0%"],
+  },
 };
 
-const reserseIndex = (_, intex) => {
+const reserseIndex = (index) => {
   const total = 6;
-  return total - intex - 1;
+  return total - index - 1;
 };
 
 const Stair = () => {
   return (
     <>
-      {[...Array(6)].map((index, num) => {
+      {[...Array(6)].map((_, index) => {
         return (
           <motion.div
-            key={num}
+            key={index}
             variants={stairAnimation}
             initial="initial"
             animate="animate"
