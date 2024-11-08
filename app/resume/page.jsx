@@ -57,39 +57,14 @@ const about = {
 
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "My experience and Freelancer",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sagittis lacus, a fringilla metus. Maecenas vel quam non velit",
   items: [
     {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Tech solutions",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Patria Artha University",
+      position: "Freelance Website Developer",
+      duration: "Juny 2023 - September 2023",
     },
   ],
 };
@@ -101,34 +76,14 @@ const education = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sagittis lacus, a fringilla metus. Maecenas vel quam non velit",
   items: [
     {
-      institution: "Fazztrack",
-      deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
+      institution: "courses online WAGEDOV",
+      deger: "Full Stack JavaScript",
+      duration: "September 2024 - Present",
     },
     {
-      institution: "Fazztrack",
+      institution: "Bootcamp Fazztrack",
       deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
-    },
-    {
-      institution: "Fazztrack",
-      deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
-    },
-    {
-      institution: "Fazztrack",
-      deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
-    },
-    {
-      institution: "Fazztrack",
-      deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
-    },
-    {
-      institution: "Fazztrack",
-      deger: "Full Stack Web & Golang",
-      duration: "2022 - Present",
+      duration: "July 2024 - September 2024",
     },
   ],
 };

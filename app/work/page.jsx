@@ -17,36 +17,25 @@ import WorkSlideBtns from "@/components/WorkSlideBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend projects",
-    title: "project 1",
+    category: "Fullstack",
+    title: "FindYourEvent",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet minus maiores repellendus ut itaque.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Developed an advanced online ticket booking application over a four-week period",
+    stack: [{ name: "ReactJS" }, { name: "Golang" }, { name: "Tailwind CSS" }],
     image: "/assets/work/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/ashari-dev/fgh21-react-event-organize",
   },
   {
     num: "02",
     category: "fullstack",
-    title: "project 2",
+    title: "Konis Coffee",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet minus maiores repellendus ut itaque.",
-    stack: [{ name: "NextJs" }, { name: "TailwindCSS" }, { name: "NodeJS" }],
+      "Konis Coffee is a collaborative online coffee shop ordering system, featuring a React.js frontend, a Gin-Gonic and Go backend, and a PostgreSQL database, all managed using Agile Scrum.",
+    stack: [{ name: "ReactJS" }, { name: "Golang" }, { name: "Tailwind CSS" }],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet minus maiores repellendus ut itaque.",
-    stack: [{ name: "NextJs" }, { name: "TailwindCSS" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    github: "https://github.com/ashari-dev/fgh21-fe-coffee-shop",
   },
 ];
 

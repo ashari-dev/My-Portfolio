@@ -3,11 +3,11 @@ import CountUp from "react-countup";
 
 const start = [
   {
-    num: 10,
+    num: 2,
     text: "Yeart of experience",
   },
   {
-    num: 5,
+    num: 3,
     text: "Projects completed",
   },
   {
@@ -37,6 +37,7 @@ const Start = () => {
                   delay={2}
                   className="text-4xl xl:text-6xl font-extrabold"
                 />
+                <p className="text-4xl xl:text-6xl -ml-5 font-extrabold">+</p>
                 <p
                   className={`${
                     item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]"

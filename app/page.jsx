@@ -2,6 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Start from "@/components/Start";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
@@ -17,19 +18,28 @@ const Home = () => {
               <span className="text-accent">Muhammad Ashari</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
-              exercitationem. Maxime nobis ratione, distinctio esse iure magnam
-              odio assumenda quibusdam.
+              I'm a passionate web developer with practical experience gained
+              through intensive bootcamps. Proficient in HTML, CSS, JavaScript,
+              and frameworks like React, Laravel, and Vite, I specialize in
+              building responsive, interactive websites. I'm skilled in Git,
+              PostgreSQL, and always eager to embrace new challenges to grow in
+              a dynamic team.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <Link
+                href={
+                  "https://drive.usercontent.google.com/download?id=1vU4KB249nhiKWDThDlR2W-DPjIwLkFp8&export=download&authuser=0&confirm=t&uuid=4f4e1475-7230-4cd2-8b86-0dc2fa6784cf&at=AENtkXYEwk-_vMC0phigNG60NTHZ:1731061542200"
+                }
               >
-                <span>Download CV</span>
-                <FiDownload />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload />
+                </Button>
+              </Link>
 
               <div className="mb-8 xl:mb-0">
                 <Social
